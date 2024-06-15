@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    position: relative;
+    padding-top: 160px; /* Adjusted padding to accommodate fixed header and navbar */
+}
+
+.header {
+    background: #f8f9fa;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    /* background-color: #343a403b; */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+.head li{
+    list-style-type: none;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.navbar {
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    top: 60px; 
+    z-index: 999;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #333;
+}
+
+.navbar .navbar-nav .btn {
+    margin-left: 10px;
+}
+
+.carousel-section img {
+    width: 100%;
+    height: auto;
+}
+
+.breadcrumbs {
+    background: #e9ecef;
+    padding: 20px 0;
+    margin-top: 120px; 
+}
+
+.breadcrumbs h6 {
+    margin: 0;
+}
+
+.breadcrumbs img {
+    width: 37px;
+}
+
+.icon-box {
+    background: #fff;
+    border: 1px solid #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.icon-box:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box .icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.icon-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-box p {
+    margin: 0;
+}
+
+#objectives, #services {
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+
+#about, #contact {
+    padding: 40px 0;
+}
+
+#contact ul {
+    padding: 0;
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact ul li a i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact form .form-label {
+    font-weight: bold;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+#back-to-top {
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+#back-to-top:hover {
+    color: #000;
+}
